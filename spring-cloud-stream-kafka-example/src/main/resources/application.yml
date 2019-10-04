@@ -5,7 +5,7 @@ spring:
       kafka:
         binder:
           brokers:
-          - ilfnd100587.eaas.amdocs.com:9092
+          - localhost:9092
       bindings:
         input:
          binder: kafka
