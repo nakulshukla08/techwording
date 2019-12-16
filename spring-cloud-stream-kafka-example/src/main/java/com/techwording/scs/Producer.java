@@ -21,7 +21,7 @@ public class Producer {
 
 	public void setMysource(Source mysource) {
 
-		mySource = mySource;
+		mySource = mysource;
 	}
 
 }
