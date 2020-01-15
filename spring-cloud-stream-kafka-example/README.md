@@ -37,3 +37,5 @@ curl -X POST \
 ```
 
 You should be able to see the consumer logs in the console.
+
+[![Build Status](https://travis-ci.org/nakulshukla08/techwording.svg?branch=master)](https://travis-ci.org/nakulshukla08/techwording)
