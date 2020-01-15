@@ -9,4 +9,4 @@ install: true
 # is for a normal branch commit. When the build is for a pull request, it will 
 # contain the pull request’s number.
 script:
-  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] || mvn -e clean install
+  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] || mvn -e clean install'
