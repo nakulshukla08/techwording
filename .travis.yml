@@ -1,1 +1,12 @@
 language: java
+cache:
+  directories:
+    - $HOME/.m2
+jdk:
+  - oraclejdk8
+install: true
+# The environment variable ${TRAVIS_PULL_REQUEST} is set to "false" when the build 
+# is for a normal branch commit. When the build is for a pull request, it will 
+# contain the pull request’s number.
+script:
+  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] || mvn -e clean install
