@@ -5,6 +5,7 @@
 	<groupId>com.techwording</groupId>
 	<artifactId>techwording-parent</artifactId>
 	<packaging>pom</packaging>
+	<version>current-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId} -Techwording Reactor</name>
 	<description>Builds all the projects available in techwording repository</description>
 
