@@ -10,3 +10,4 @@ install: true
 # contain the pull request’s number.
 script:
   - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] || mvn -e clean install'
+dist: trusty
