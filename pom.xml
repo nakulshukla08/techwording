@@ -11,6 +11,7 @@
 
 	<modules>
 		<module>spring-cloud-stream-kafka-example</module>
+		<module>doc-builder</module>
 	</modules>
 
 </project>
