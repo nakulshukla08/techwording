@@ -1,5 +1,5 @@
 name: tech-wording
 title: Tech Wording
-version: '2.0'
 nav:
 - modules/module-one/technical-design.adoc
+- modules/ROOT/nav.adoc
