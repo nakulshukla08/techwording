@@ -18,6 +18,9 @@ public class TreeLevelOrderTraversal {
 		System.out.println(levelOrder);
 	}
 
+	/*
+	 * public api for level order traversal
+	 */
 	public List<List<Integer>> levelOrder(TreeNode root) {
 
 		List<List<Integer>> list = new ArrayList<List<Integer>>();
