@@ -34,11 +34,7 @@ public class TreeLevelOrderTraversal {
 
 		queue.add(root);
 
-		while (true) {
-
-			if (queue.isEmpty()) {
-				break;
-			}
+		while (!queue.isEmpty()) {
 
 			int size = queue.size();
 			List<Integer> subList = new ArrayList<>();
