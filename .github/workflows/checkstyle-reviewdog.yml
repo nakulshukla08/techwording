@@ -8,7 +8,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Run check style
-      uses: Sixt/checkstyle-action@master
+      uses: Sixt/checkstyle-action@test_fix
       with:
         github_token: '${{ secrets.GITHUB_TOKEN }}'
         reporter: 'github-pr-check'
