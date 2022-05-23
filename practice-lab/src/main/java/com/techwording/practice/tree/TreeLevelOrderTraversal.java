@@ -18,6 +18,9 @@ public class TreeLevelOrderTraversal {
 		System.out.println(levelOrder);
 	}
 
+	/*
+	 * public api for level order traversal
+	 */
 	public List<List<Integer>> levelOrder(TreeNode root) {
 
 		List<List<Integer>> list = new ArrayList<List<Integer>>();
@@ -34,11 +37,7 @@ public class TreeLevelOrderTraversal {
 
 		queue.add(root);
 
-		while (true) {
-
-			if (queue.isEmpty()) {
-				break;
-			}
+		while (!queue.isEmpty()) {
 
 			int size = queue.size();
 			List<Integer> subList = new ArrayList<>();
